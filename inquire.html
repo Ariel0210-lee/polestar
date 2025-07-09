@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pole Star</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/inquire.css" />
+  </head>
+
+  <body>
+   <header>
+      <div class="menu container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="nav">
+              <div class="logo">
+                <a href="index.html"
+                  ><img src="assets/images/icon/logo.svg" alt="로고"
+                /></a>
+              </div>
+              <ul class="navbar m-off">
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">상품 소개</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="inquire.html">문의하기</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="event.html">이벤트</a>
+                </li>
+              </ul>
+
+              <!-- 고스트 버튼 -->
+              <div class="ghost_btn">
+                <a href="#">
+                  <i class="bx bx-menu"></i>
+                </a>
+              </div>
+              <div class="close_btn">
+                <a href="#">
+                  <i class="bx bxs-x-square"></i>
+                </a>
+              </div>
+              <!-- 모바일 메뉴 -->
+              <ul class="navbar m-navi">
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">상품 소개</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="inquire.html">문의하기</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="event.html">이벤트</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- title section -->
+    <section class="title-section">
+      <div class="page-title container-fluid"></div>
+    </section>
+    <!-- title section end -->
+
+    <!-- section02 -->
+    <section class="inquire-sec02">
+      <div class="container">
+        <div class="row">
+          <div class="sec02-title col-md-12 text-center">
+            <h3>문의하기</h3>
+          </div>
+        </div>
+        <form>
+          <div class="row">
+            <div class="col-md-6 map">
+              <!-- kakao map -->
+              <div id="map" style="width:100%;height:450px;"></div>
+            </div>
+            <div class="col-md-6">
+              <div class="input-area col-md-12">
+              <label for="name">성명(Name)<span>*</span></label>
+              <input type="text" id="name" placeholder="이름을 입력해주세요" />
+            </div>
+            <div class="input-area col-md-12">
+              <label for="phone">연락처(Phone Number)<span>*</span></label>
+              <input type="tel" id="phone" placeholder="전화번호를 입력해주세요" />
+            </div>
+            <div class="input-area col-md-12">
+              <label for="email">이메일(E-mail)<span>*</span></label>
+              <input type="email" id="e-mail" placeholder="이메일 주소를 입력해주세요" />
+            </div>
+            <div class="input-area col-md-12">
+              <label for="question-select">문의 종류(Question)<span>*</span></label>
+              <select name="question-select" id="question-select">
+                <option disabled selected>선택해주세요</option>
+                <option>주문제작</option>
+                <option>교환/반품</option>
+                <option>기타</option>
+              </select>
+            </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-area question_txt col-md-12">
+              <label for="question">문의 내용<span>*</span></label>
+              <textarea name="question" id="question" placeholder="내용을 입력해주세요"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="agree-txt_form col-md-12">
+              <div class="agree-text">
+                <p class="agree_title">개인정보 수집·이용 동의(필수)</p>
+              <div class="agree-txt">
+                <p>
+                문의 주신 내용의 답변을 위하여 고객님의 개인 정보를 수집합니다. 개인 정보 수집에 동의하신 분에 한하여 문의 접수가 가능합니다.
+              </p>
+              <p>
+                수집하는 개인 정보 항목 : 이름 / 연락처 / 이메일
+              </p>
+              </div>
+              <div class="agree-txt_eng">
+                <p>
+                Please agree to collect personal information to answer the question.
+              </p>
+              <p>
+                Collecting personal information : Name / Phone number / E-mail 
+              </p>
+              </div>
+              <a href="#" class="agree_check">
+                <input type="checkbox" name="agree" id="agree">
+                <label for="agree"><span>동의합니다</span></label>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="submit col-md-12">
+              <button type="submit" class="submit_btn">
+                <span>문의글 전송하기</span>
+                <i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- section02 end -->
+
+    <footer>
+      <div class="footer-top container">
+        <div class="row">
+          <div class="footer_logo col-md-3">
+            <img src="assets/images/icon/logo-vertical.svg" alt="로고" />
+          </div>
+          <div class="footer_text col-md-6">
+            <div class="address">
+              <p><span class="text-bold">대표</span> 이윤지</p>
+              <p><span class="text-bold">주소</span> 경기도 부천시 원미구</p>
+              <p><span class="text-bold">사업자번호</span> 123-45-67890</p>
+              <p><span class="text-bold">통신판매번호</span> 제 부천-00000호</p>
+            </div>
+          </div>
+          <div class="contact col-md-3">
+            <h4>문의</h4>
+            <p>010-1234-5678</p>
+            <div class="sns-icons">
+              <a href="#">
+                <i class="bx bxl-instagram-alt"></i>
+              </a>
+              <a href="#">
+                <img
+                  class="x-twitter"
+                  src="assets/images/icon/X-twitter_icon.svg"
+                  alt="X-트위터-아이콘" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <svg
+        class="m-footer"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="100%"
+        height="100%"
+        viewBox="0 0 1600 900"
+        preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <linearGradient id="bg">
+            <stop offset="0%" style="stop-color: rgba(151, 149, 240, 1)"></stop>
+            <stop
+              offset="50%"
+              style="stop-color: rgba(201, 175, 226, 0.6)"></stop>
+            <stop
+              offset="100%"
+              style="stop-color: rgba(251, 200, 212, 1)"></stop>
+          </linearGradient>
+          <path
+            id="wave"
+            fill="url(#bg)"
+            d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+    s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+        </defs>
+        <g>
+          <use xlink:href="#wave" opacity=".3">
+            <animateTransform
+              attributeName="transform"
+              attributeType="XML"
+              type="translate"
+              dur="10s"
+              calcMode="spline"
+              values="270 230; -334 180; 270 230"
+              keyTimes="0; .5; 1"
+              keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+              repeatCount="indefinite" />
+          </use>
+          <use xlink:href="#wave" opacity=".6">
+            <animateTransform
+              attributeName="transform"
+              attributeType="XML"
+              type="translate"
+              dur="8s"
+              calcMode="spline"
+              values="-270 230;243 220;-270 230"
+              keyTimes="0; .6; 1"
+              keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+              repeatCount="indefinite" />
+          </use>
+          <use xlink:href="#wave" opacty=".9">
+            <animateTransform
+              attributeName="transform"
+              attributeType="XML"
+              type="translate"
+              dur="6s"
+              calcMode="spline"
+              values="0 230;-140 200;0 230"
+              keyTimes="0; .4; 1"
+              keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+              repeatCount="indefinite" />
+          </use>
+        </g>
+      </svg>
+
+      <div class="gr m-footer">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          width="100%"
+          height="100%"
+          viewBox="0 0 1600 900"
+          preserveAspectRatio="xMidYMax slice">
+          <defs>
+            <linearGradient id="bg">
+              <stop
+                offset="0%"
+                style="stop-color: rgba(151, 149, 240, 1)"></stop>
+              <stop
+                offset="50%"
+                style="stop-color: rgba(201, 175, 226, 0.6)"></stop>
+              <stop
+                offset="100%"
+                style="stop-color: rgba(251, 200, 212, 1)"></stop>
+            </linearGradient>
+            <path
+              id="wave"
+              fill="url(#bg)"
+              d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+    s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+          </defs>
+          <g>
+            <use xlink:href="#wave" opacity=".3">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="10s"
+                calcMode="spline"
+                values="270 230; -334 180; 270 230"
+                keyTimes="0; .5; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+            </use>
+            <use xlink:href="#wave" opacity=".6">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="8s"
+                calcMode="spline"
+                values="-270 230;243 220;-270 230"
+                keyTimes="0; .6; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+            </use>
+            <use xlink:href="#wave" opacty=".9">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="6s"
+                calcMode="spline"
+                values="0 230;-140 200;0 230"
+                keyTimes="0; .4; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+            </use>
+          </g>
+        </svg>
+      </div>
+    </footer>
+
+    <!-- script -->
+     <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- bootstrap 4 -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- kakao map -->
+    <script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=30bdc2b01839a3f49c894b81b85eebb8"></script>
+    <!-- main.js -->
+    <script src="assets/js/inquire.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

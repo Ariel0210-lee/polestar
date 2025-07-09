@@ -1,0 +1,256 @@
+@import url("https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css");
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css");
+/* fonts */
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  color: #4b4a51;
+  line-height: 160%;
+  letter-spacing: -0.025rem;
+}
+
+section {
+  padding: 60px 0;
+}
+
+body {
+  background-color: #efeffd;
+}
+body header {
+  background-color: #fff;
+}
+
+.title-section {
+  padding-top: 0;
+}
+.title-section .page-title {
+  height: 240px;
+  background: url(../images/title_img.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-section .page-title h1 {
+  font-size: 54px;
+  font-weight: 600;
+  color: #fff;
+  margin: 0;
+}
+
+.new-sec02 .container,
+.new-sec03 .container,
+.new-sec04 .container {
+  position: relative;
+}
+.new-sec02 .container .content_text,
+.new-sec03 .container .content_text,
+.new-sec04 .container .content_text {
+  background-color: #fff;
+  margin-top: 210px;
+  padding: 60px 80px 60px 10px;
+}
+.new-sec02 .container .content_text p,
+.new-sec03 .container .content_text p,
+.new-sec04 .container .content_text p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.new-sec02 .container .content_text .content_title,
+.new-sec03 .container .content_text .content_title,
+.new-sec04 .container .content_text .content_title {
+  margin-bottom: 30px;
+}
+.new-sec02 .container .content_text .content_title h3,
+.new-sec03 .container .content_text .content_title h3,
+.new-sec04 .container .content_text .content_title h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #9795F0;
+  margin-bottom: 10px;
+}
+.new-sec02 .container .content_text .content_subscribe,
+.new-sec03 .container .content_text .content_subscribe,
+.new-sec04 .container .content_text .content_subscribe {
+  margin-bottom: 50px;
+}
+.new-sec02 .container .content_text .content_subscribe p,
+.new-sec03 .container .content_text .content_subscribe p,
+.new-sec04 .container .content_text .content_subscribe p {
+  margin-bottom: 5px;
+}
+.new-sec02 .container .content_text :active,
+.new-sec02 .container .content_text :hover,
+.new-sec02 .container .content_text :focus,
+.new-sec03 .container .content_text :active,
+.new-sec03 .container .content_text :hover,
+.new-sec03 .container .content_text :focus,
+.new-sec04 .container .content_text :active,
+.new-sec04 .container .content_text :hover,
+.new-sec04 .container .content_text :focus {
+  outline: 0 !important;
+  outline-offset: 0;
+}
+.new-sec02 .container .content_text ::before,
+.new-sec02 .container .content_text ::after,
+.new-sec03 .container .content_text ::before,
+.new-sec03 .container .content_text ::after,
+.new-sec04 .container .content_text ::before,
+.new-sec04 .container .content_text ::after {
+  position: absolute;
+  content: "";
+}
+.new-sec02 .container .content_text .new_btn,
+.new-sec03 .container .content_text .new_btn,
+.new-sec04 .container .content_text .new_btn {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  min-width: 150px;
+}
+.new-sec02 .container .content_text .new_btn span,
+.new-sec03 .container .content_text .new_btn span,
+.new-sec04 .container .content_text .new_btn span {
+  position: relative;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 14px 32px;
+  transition: 0.3s;
+}
+.new-sec02 .container .content_text .btn-3,
+.new-sec03 .container .content_text .btn-3,
+.new-sec04 .container .content_text .btn-3 {
+  padding: 5px;
+}
+.new-sec02 .container .content_text .btn-3 span,
+.new-sec03 .container .content_text .btn-3 span,
+.new-sec04 .container .content_text .btn-3 span {
+  color: rgb(255, 255, 255);
+  background-color: #9795F0;
+}
+.new-sec02 .container .content_text .btn-3::before,
+.new-sec02 .container .content_text .btn-3::after,
+.new-sec03 .container .content_text .btn-3::before,
+.new-sec03 .container .content_text .btn-3::after,
+.new-sec04 .container .content_text .btn-3::before,
+.new-sec04 .container .content_text .btn-3::after {
+  background: transparent;
+}
+.new-sec02 .container .content_text .new_btn.hover-border-5::before,
+.new-sec02 .container .content_text .new_btn.hover-border-5::after,
+.new-sec03 .container .content_text .new_btn.hover-border-5::before,
+.new-sec03 .container .content_text .new_btn.hover-border-5::after,
+.new-sec04 .container .content_text .new_btn.hover-border-5::before,
+.new-sec04 .container .content_text .new_btn.hover-border-5::after {
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+}
+.new-sec02 .container .content_text .new_btn.hover-border-5::before,
+.new-sec03 .container .content_text .new_btn.hover-border-5::before,
+.new-sec04 .container .content_text .new_btn.hover-border-5::before {
+  top: 0;
+  right: 0;
+  border-top: 1px solid #9795F0;
+  border-left: 1px solid #9795F0;
+  transition: width 0.2s 0.5s ease-out, height 0.15s 0.35s linear, opacity 0s 0.7s;
+}
+.new-sec02 .container .content_text .new_btn.hover-border-5::after,
+.new-sec03 .container .content_text .new_btn.hover-border-5::after,
+.new-sec04 .container .content_text .new_btn.hover-border-5::after {
+  bottom: 0;
+  left: 0px;
+  border-bottom: 1px solid #9795F0;
+  border-right: 1px solid #9795F0;
+  transition: width 0.2s 0.15s linear, height 0.15s ease-in, opacity 0s 0.35s;
+}
+.new-sec02 .container .content_text .new_btn.hover-border-5:hover::before,
+.new-sec02 .container .content_text .new_btn.hover-border-5:hover::after,
+.new-sec03 .container .content_text .new_btn.hover-border-5:hover::before,
+.new-sec03 .container .content_text .new_btn.hover-border-5:hover::after,
+.new-sec04 .container .content_text .new_btn.hover-border-5:hover::before,
+.new-sec04 .container .content_text .new_btn.hover-border-5:hover::after {
+  width: 100%;
+  height: 96%;
+  opacity: 1;
+}
+.new-sec02 .container .content_text .new_btn.hover-border-5:hover::before,
+.new-sec03 .container .content_text .new_btn.hover-border-5:hover::before,
+.new-sec04 .container .content_text .new_btn.hover-border-5:hover::before {
+  transition: width 0.2s ease-in, height 0.15s 0.2s linear, opacity 0s; /* 1,2 */
+}
+.new-sec02 .container .content_text .new_btn.hover-border-5:hover::after,
+.new-sec03 .container .content_text .new_btn.hover-border-5:hover::after,
+.new-sec04 .container .content_text .new_btn.hover-border-5:hover::after {
+  transition: width 0.2s 0.35s linear, height 0.15s 0.5s ease-out, opacity 0s 0.3s;
+}
+.new-sec02 .container .content-img,
+.new-sec03 .container .content-img,
+.new-sec04 .container .content-img {
+  position: absolute;
+  left: 55%;
+}
+.new-sec02 .container .content-img img,
+.new-sec03 .container .content-img img,
+.new-sec04 .container .content-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.new-sec03 .container .content_text .content_title h3 {
+  color: #F1BB80;
+}
+.new-sec03 .container .content_text .btn-3 span {
+  background-color: #F1BB80;
+}
+.new-sec03 .container .content_text .new_btn.hover-border-5::before {
+  border-top: 1px solid #F1BB80;
+  border-left: 1px solid #F1BB80;
+}
+.new-sec03 .container .content_text .new_btn.hover-border-5::after {
+  border-bottom: 1px solid #F1BB80;
+  border-right: 1px solid #F1BB80;
+}
+
+.new-sec04 {
+  padding-bottom: 200px;
+}
+.new-sec04 .container .content_text .content_title h3 {
+  color: #6BBDE2;
+}
+.new-sec04 .container .content_text .btn-3 span {
+  background-color: #6BBDE2;
+}
+.new-sec04 .container .content_text .new_btn.hover-border-5::before {
+  border-top: 1px solid #6BBDE2;
+  border-left: 1px solid #6BBDE2;
+}
+.new-sec04 .container .content_text .new_btn.hover-border-5::after {
+  border-bottom: 1px solid #6BBDE2;
+  border-right: 1px solid #6BBDE2;
+}
+
+@media (max-width: 1280px) {
+  .logo img {
+    width: 270px;
+    margin: 45px;
+  }
+  .nav .navbar .nav-link {
+    font-size: 16px;
+  }
+  .nav a {
+    padding: 16px 32px;
+  }
+  section {
+    padding: 60px 0;
+  }
+}/*# sourceMappingURL=new.css.map */

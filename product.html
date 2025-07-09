@@ -1,0 +1,1313 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pole Star</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/product.css" />
+  </head>
+  <body>
+    <header>
+      <div class="menu container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="nav">
+              <div class="logo">
+                <a href="index.html"
+                  ><img src="assets/images/icon/logo.svg" alt="로고"
+                /></a>
+              </div>
+              <ul class="navbar m-off">
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">상품 소개</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="inquire.html">문의하기</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="event.html">이벤트</a>
+                </li>
+              </ul>
+
+              <!-- 고스트 버튼 -->
+              <div class="ghost_btn">
+                <a href="#">
+                  <i class="bx bx-menu"></i>
+                </a>
+              </div>
+              <div class="close_btn">
+                <a href="#">
+                  <i class="bx bxs-x-square"></i>
+                </a>
+              </div>
+              <!-- 모바일 메뉴 -->
+              <ul class="navbar m-navi">
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="product.html">상품 소개</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="inquire.html">문의하기</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="event.html">이벤트</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- title section -->
+    <section class="title-section">
+      <div class="page-title container-fluid">
+        <h1 class="wave-text">
+          <span>L</span>
+          <span>e</span>
+          <span>t</span>
+          <span></span>
+          <span>y</span>
+          <span>o</span>
+          <span>u</span>
+          <span>r</span>
+          <span></span>
+          <span>t</span>
+          <span>h</span>
+          <span>o</span>
+          <span>u</span>
+          <span>g</span>
+          <span>h</span>
+          <span>t</span>
+          <span>s</span>
+          <span></span>
+          <span>b</span>
+          <span>l</span>
+          <span>o</span>
+          <span>o</span>
+          <span>m</span>
+          <span></span>
+          <span>o</span>
+          <span>n</span>
+          <span></span>
+          <span>e</span>
+          <span>v</span>
+          <span>e</span>
+          <span>r</span>
+          <span>y</span>
+          <span></span>
+          <span>p</span>
+          <span>a</span>
+          <span>g</span>
+          <span>e</span>
+          <span>s</span>
+          <span>.</span>
+        </h1>
+      </div>
+    </section>
+    <!-- title section end -->
+
+    <!-- section02 -->
+    <section class="product-sec02">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h3 class="product_sub-title">이 달의 추천 상품</h3>
+            <div class="product_text">
+              <p>이번 달, 당신의 일상에 특별한 마법을 선사할 아이템</p>
+              <p>봄바람처럼 산뜻하고 따뜻한 감성을 담은</p>
+              <p>이 달의 추천 상품을 만나보세요.</p>
+            </div>
+          </div>
+        </div>
+        <div class="product_content row">
+          <div class="content-img col-md-6">
+            <img src="assets/images/product/product01.png" alt="상품일러스트" />
+            <div class="content-overlay-box">
+              <a
+                href="#"
+                class="more_btn"
+                data-toggle="modal"
+                data-target="#prodModal01"
+                >자세히 보기</a
+              >
+            </div>
+          </div>
+          <div class="content-img col-md-6">
+            <img src="assets/images/product/product02.png" alt="상품일러스트" />
+            <div class="content-overlay-box">
+              <a
+                href="#"
+                class="more_btn"
+                data-toggle="modal"
+                data-target="#prodModal02"
+                >자세히 보기</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section02 end -->
+
+    <!-- section03 -->
+    <section class="product-sec03">
+      <div class="container">
+        <div class="row">
+          <ul
+            class="nav nav-pills col-md-12 text-center"
+            id="pills-tab"
+            role="tablist">
+            <li class="nav-item tap01" role="presentation">
+              <a
+                href="#"
+                class="nav-link active"
+                id="pills-diary-tab"
+                data-toggle="pill"
+                data-target="#pills-diary"
+                role="tab"
+                aria-controls="pills-diary"
+                aria-selected="true">
+                <img src="assets/images/icon/diary_icon.svg" alt="아이콘" />
+                <p>다이어리</p>
+              </a>
+            </li>
+            <li class="nav-item tap02" role="presentation">
+              <a
+                href="#"
+                class="nav-link"
+                id="pills-sticker-tab"
+                data-toggle="pill"
+                data-target="#pills-sticker"
+                role="tab"
+                aria-controls="pills-sticker"
+                aria-selected="false">
+                <img src="assets/images/icon/sticker_icon.svg" alt="아이콘" />
+                <p>스티커</p>
+              </a>
+            </li>
+            <li class="nav-item tap03" role="presentation">
+              <a
+                href="#"
+                class="nav-link"
+                id="pills-tape-tab"
+                data-toggle="pill"
+                data-target="#pills-tape"
+                role="tab"
+                aria-controls="pills-tape"
+                aria-selected="false">
+                <img
+                  src="assets/images/icon/masking-tape_icon.svg"
+                  alt="아이콘" />
+                <p>마스킹테이프</p>
+              </a>
+            </li>
+            <li class="nav-item tap04" role="presentation">
+              <a
+                href="#"
+                class="nav-link"
+                id="pills-note-tab"
+                data-toggle="pill"
+                data-target="#pills-note"
+                role="tab"
+                aria-controls="pills-note"
+                aria-selected="false">
+                <img src="assets/images/icon/note_icon.svg" alt="아이콘" />
+                <p>노트</p>
+              </a>
+            </li>
+            <li class="nav-item tap05" role="presentation">
+              <a
+                href="#"
+                class="nav-link"
+                id="pills-memo-tab"
+                data-toggle="pill"
+                data-target="#pills-memo"
+                role="tab"
+                aria-controls="pills-memo"
+                aria-selected="false">
+                <img src="assets/images/icon/memo_icon.svg" alt="아이콘" />
+                <p>메모지</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- 여기까지 탭 -->
+        <!-- --- -->
+        <!-- 탭 컨텐츠 -->
+        <div class="container tab-content" id="pills-tabContent">
+          <!-- 다이어리 탭 -->
+          <div
+            class="tab-pane fade show active"
+            id="pills-diary"
+            role="tabpanel"
+            area-labelledby="pills-diary-tab">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img
+                    src="assets/images/product/product03.png"
+                    alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a
+                      href="#"
+                      class="more_btn"
+                      data-toggle="modal"
+                      data-target="#prodModal03-1"
+                      >자세히 보기</a
+                    >
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">마법소녀 다이어리(ver. 셀레네)</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img
+                    src="assets/images/product/product04.png"
+                    alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a
+                      href="#"
+                      class="more_btn"
+                      data-toggle="modal"
+                      data-target="#prodModal03-2"
+                      >자세히 보기</a
+                    >
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">마법소녀 다이어리(ver. 다이아나)</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img
+                    src="assets/images/product/product05.png"
+                    alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a
+                      href="#"
+                      class="more_btn"
+                      data-toggle="modal"
+                      data-target="#prodModal03-3"
+                      >자세히 보기</a
+                    >
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">마법소녀 다이어리(ver. 에오스)</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center mt-60">
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img
+                    src="assets/images/product/product06.png"
+                    alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a
+                      href="#"
+                      class="more_btn"
+                      data-toggle="modal"
+                      data-target="#prodModal03-4"
+                      >자세히 보기</a
+                    >
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">소녀의 여행일지 다이어리</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img
+                    src="assets/images/product/product07.png"
+                    alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a
+                      href="#"
+                      class="more_btn"
+                      data-toggle="modal"
+                      data-target="#prodModal03-5"
+                      >자세히 보기</a
+                    >
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">백합과 앨리스 다이어리</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img
+                    src="assets/images/product/product08.png"
+                    alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a
+                      href="#"
+                      class="more_btn"
+                      data-toggle="modal"
+                      data-target="#prodModal03-6"
+                      >자세히 보기</a
+                    >
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">캔디 드림 다이어리</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 스티커 탭 -->
+          <div
+            class="tab-pane fade"
+            id="pills-sticker"
+            role="tabpanel"
+            area-labelledby="pills-sticker-tab">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/sticker_01.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal"
+                      data-target="#prodModal04-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">스티커</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/sticker_02.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal"
+                      data-target="#prodModal04-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">스티커</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/sticker_03.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal"
+                      data-target="#prodModal04-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">스티커</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center mt-60">
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/sticker_04.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal"
+                      data-target="#prodModal04-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">스티커</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/sticker_05.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal"
+                      data-target="#prodModal04-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">스티커</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/sticker_06.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal"
+                      data-target="#prodModal04-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">스티커</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 마스킹테이프 탭 -->
+          <div
+            class="tab-pane fade"
+            id="pills-tape"
+            role="tabpanel"
+            area-labelledby="pills-tape-tab">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/tape_01.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal" data-target="#prodModal05-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">마스킹테이프</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/tape_02.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal" data-target="#prodModal05-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">마스킹테이프</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/tape_03.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal" data-target="#prodModal05-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">마스킹테이프</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="row text-center mt-60">
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/tape_01.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">마스킹테이프</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/tape_02.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">마스킹테이프</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/tape_03.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">마스킹테이프</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <!-- 노트 탭 -->
+          <div
+            class="tab-pane fade"
+            id="pills-note"
+            role="tabpanel"
+            area-labelledby="pills-note-tab">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/note_01.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal" data-target="#prodModal06-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">노트</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/note_02.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal" data-target="#prodModal06-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">노트</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              </div>
+          </div>
+          <!-- 메모지 탭 -->
+          <div
+            class="tab-pane fade"
+            id="pills-memo"
+            role="tabpanel"
+            area-labelledby="pills-memo-tab">
+            <div class="row text-center">
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/memo_01.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal" data-target="#prodModal07-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">메모지</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/memo_02.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal" data-target="#prodModal07-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">메모지</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/memo_03.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">메모지</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center mt-60">
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/memo_04.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal" data-target="#prodModal07-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">메모지</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/memo_05.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal" data-target="#prodModal07-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">메모지</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="item-img">
+                  <img src="assets/images/product/memo_06.png" alt="상품일러스트" />
+                  <div class="content-overlay-box">
+                    <a href="#" class="more_btn" data-toggle="modal" data-target="#prodModal07-1">자세히 보기</a>
+                  </div>
+                </div>
+                <div class="item-text">
+                  <p class="item_name">메모지</p>
+                  <p class="item_sub">소소한 일상에 스며드는 감성 아이템</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section03 end -->
+
+    <footer>
+      <div class="footer-top container">
+        <div class="row">
+          <div class="footer_logo col-md-3">
+            <img src="assets/images/icon/logo-vertical.svg" alt="로고" />
+          </div>
+          <div class="footer_text col-md-6">
+            <div class="address">
+              <p><span class="text-bold">대표</span> 이윤지</p>
+              <p><span class="text-bold">주소</span> 경기도 부천시 원미구</p>
+              <p><span class="text-bold">사업자번호</span> 123-45-67890</p>
+              <p><span class="text-bold">통신판매번호</span> 제 부천-00000호</p>
+            </div>
+          </div>
+          <div class="contact col-md-3">
+            <h4>문의</h4>
+            <p>010-1234-5678</p>
+            <div class="sns-icons">
+              <a href="#">
+                <i class="bx bxl-instagram-alt"></i>
+              </a>
+              <a href="#">
+                <img
+                  class="x-twitter"
+                  src="assets/images/icon/X-twitter_icon.svg"
+                  alt="X-트위터-아이콘" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <svg
+        class="m-footer"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        width="100%"
+        height="100%"
+        viewBox="0 0 1600 900"
+        preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <linearGradient id="bg">
+            <stop offset="0%" style="stop-color: rgba(151, 149, 240, 1)"></stop>
+            <stop
+              offset="50%"
+              style="stop-color: rgba(201, 175, 226, 0.6)"></stop>
+            <stop
+              offset="100%"
+              style="stop-color: rgba(251, 200, 212, 1)"></stop>
+          </linearGradient>
+          <path
+            id="wave"
+            fill="url(#bg)"
+            d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+    s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+        </defs>
+        <g>
+          <use xlink:href="#wave" opacity=".3">
+            <animateTransform
+              attributeName="transform"
+              attributeType="XML"
+              type="translate"
+              dur="10s"
+              calcMode="spline"
+              values="270 230; -334 180; 270 230"
+              keyTimes="0; .5; 1"
+              keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+              repeatCount="indefinite" />
+          </use>
+          <use xlink:href="#wave" opacity=".6">
+            <animateTransform
+              attributeName="transform"
+              attributeType="XML"
+              type="translate"
+              dur="8s"
+              calcMode="spline"
+              values="-270 230;243 220;-270 230"
+              keyTimes="0; .6; 1"
+              keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+              repeatCount="indefinite" />
+          </use>
+          <use xlink:href="#wave" opacty=".9">
+            <animateTransform
+              attributeName="transform"
+              attributeType="XML"
+              type="translate"
+              dur="6s"
+              calcMode="spline"
+              values="0 230;-140 200;0 230"
+              keyTimes="0; .4; 1"
+              keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+              repeatCount="indefinite" />
+          </use>
+        </g>
+      </svg>
+
+      <div class="gr m-footer">
+        <svg
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          width="100%"
+          height="100%"
+          viewBox="0 0 1600 900"
+          preserveAspectRatio="xMidYMax slice">
+          <defs>
+            <linearGradient id="bg">
+              <stop
+                offset="0%"
+                style="stop-color: rgba(151, 149, 240, 1)"></stop>
+              <stop
+                offset="50%"
+                style="stop-color: rgba(201, 175, 226, 0.6)"></stop>
+              <stop
+                offset="100%"
+                style="stop-color: rgba(251, 200, 212, 1)"></stop>
+            </linearGradient>
+            <path
+              id="wave"
+              fill="url(#bg)"
+              d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+    s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+          </defs>
+          <g>
+            <use xlink:href="#wave" opacity=".3">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="10s"
+                calcMode="spline"
+                values="270 230; -334 180; 270 230"
+                keyTimes="0; .5; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+            </use>
+            <use xlink:href="#wave" opacity=".6">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="8s"
+                calcMode="spline"
+                values="-270 230;243 220;-270 230"
+                keyTimes="0; .6; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+            </use>
+            <use xlink:href="#wave" opacty=".9">
+              <animateTransform
+                attributeName="transform"
+                attributeType="XML"
+                type="translate"
+                dur="6s"
+                calcMode="spline"
+                values="0 230;-140 200;0 230"
+                keyTimes="0; .4; 1"
+                keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+                repeatCount="indefinite" />
+            </use>
+          </g>
+        </svg>
+      </div>
+    </footer>
+
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="prodModal01"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+              <img
+                src="assets/images/product/product_m01.png"
+                alt="상품일러스트" />
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">튤립 레이디 메모장</h4>
+                <p class="sub-title">스프링 하드 커버 / 8*8 정사각형 / 무지</p>
+              </div>
+              <p class="modal-prod_sub">
+                튤립 든 소녀의 뒷모습을 부드럽게 그린 은은한 분홍빛 하드 커버로
+                봄 느낌이 낭낭하게 제작되어, 색연필 감성으로 채색된 튤립과
+                레이스 일러스트로 꾸며진 내지로 구성되었습니다.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div
+      class="modal fade"
+      id="prodModal02"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+              <img
+                src="assets/images/product/product_m02.png"
+                alt="상품일러스트" />
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">봄의 향기 노트</h4>
+                <p class="sub-title">PVC 커버 / A5 / 루즈리프</p>
+              </div>
+              <p class="modal-prod_sub">
+                봄의 소리가 느껴지는 녹색~비취색 계열의 수채풍 일러스트 커버에
+                투명 PVC 커버를 씌워 보호되도록 제작되었습니다. <br />
+                줄글을 쓰기 좋은 라인 내지는 잉크 번짐과 비침이 적어 만년필을
+                쓰기에도 좋습니다.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 여기까지 section02 modal -->
+    <!--  -->
+    <div
+      class="modal fade"
+      id="prodModal03-1"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+              <img
+                src="assets/images/product/diary_01.png"
+                alt="상품일러스트" />
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">마법소녀 다이어리(ver. 셀레네)</h4>
+                <p class="sub-title">하드 커버 / A6 / 만년형</p>
+              </div>
+              <p class="modal-prod_sub">
+                신화 속 달의 여신 셀레네의 이름을 딴 마법소녀를 이미지해 제작된
+                다이어리입니다. <br />
+                만년형으로 원하시는 연도의 일자를 기입해 자유롭게 사용하실 수
+                있으며, 월, 주간, 일자별로 일정을 관리할 수 있는 스케줄 페이지와
+                자유롭게 일기나 꾸미기 페이지를 작성할 수 있는 무지로 구성하고
+                마지막에는 가볍게 메모하기 좋은 라인 내지와 모눈 내지를 5장씩
+                구성되었습니다.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="prodModal03-2"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+              <img
+                src="assets/images/product/diary_02.png"
+                alt="상품일러스트" />
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">마법소녀 다이어리(ver. 다이아나)</h4>
+                <p class="sub-title">하드 커버 / A6 / 만년형</p>
+              </div>
+              <p class="modal-prod_sub">
+                신화 속 달의 여신 아르테미스의 영문 이름을 딴 마법소녀를
+                이미지해 제작된 다이어리입니다. <br />
+                만년형으로 원하시는 연도의 일자를 기입해 자유롭게 사용하실 수
+                있으며, 월, 주간, 일자별로 일정을 관리할 수 있는 스케줄 페이지와
+                자유롭게 일기나 꾸미기 페이지를 작성할 수 있는 무지로 구성하고
+                마지막에는 가볍게 메모하기 좋은 라인 내지와 모눈 내지를 5장씩
+                구성되었습니다.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="prodModal03-3"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+              <img
+                src="assets/images/product/diary_03.png"
+                alt="상품일러스트" />
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">마법소녀 다이어리(ver. 에오스)</h4>
+                <p class="sub-title">하드 커버 / A6 / 만년형</p>
+              </div>
+              <p class="modal-prod_sub">
+                신화 속 새벽의 여신 에오스의 이름을 딴 마법소녀를 이미지해
+                제작된 다이어리입니다. <br />
+                만년형으로 원하시는 연도의 일자를 기입해 자유롭게 사용하실 수
+                있으며, 월, 주간, 일자별로 일정을 관리할 수 있는 스케줄 페이지와
+                자유롭게 일기나 꾸미기 페이지를 작성할 수 있는 무지로 구성하고
+                마지막에는 가볍게 메모하기 좋은 라인 내지와 모눈 내지를 5장씩
+                구성되었습니다.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="prodModal03-4"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+              <img
+                src="assets/images/product/diary_04.png"
+                alt="상품일러스트" />
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">소녀의 여행일지 다이어리</h4>
+                <p class="sub-title">소프트 커버 / A6 / 6공</p>
+              </div>
+              <p class="modal-prod_sub">
+                여행 트렁크를 들고 앞으로 나아가는 소녀의 일러스트를 담은 커버로
+                제작된 다이어리입니다. <br />
+                6공 바인더 형식으로 얼마든지 내지를 바꿔 쓰실 수 있어 마음에
+                드는 만큼 오래오래 사용하실 수 있는 다이어리입니다. 루즈리프
+                내지를 끼워 만년필과 딥펜을 사용하면 보다 감성 있게 사용하실 수
+                있습니다.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="prodModal03-5"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+              <img
+                src="assets/images/product/diary_05.png"
+                alt="상품일러스트" />
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">백합과 앨리스 다이어리</h4>
+                <p class="sub-title">PVC 커버 / B5 / 6공</p>
+              </div>
+              <p class="modal-prod_sub">
+                청량한 색감의 수채풍 앨리스 일러스트 커버로 제작된
+                다이어리입니다. <br />
+                6공 바인더 형식으로 얼마든지 내지를 바꿔 쓰실 수 있으며, PVC
+                커버를 씌워 보호했습니다. 만화책 크기의 B5 사이즈로 가방에 넣고
+                다니기에도 좋습니다.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="prodModal03-6"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+              <img
+                src="assets/images/product/diary_06.png"
+                alt="상품일러스트" />
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">캔디 드림 다이어리</h4>
+                <p class="sub-title">하드 커버 / B5 / 날짜형·만년형</p>
+              </div>
+              <p class="modal-prod_sub">
+                할로윈의 밤 달콤한 유령들의 파티에 초대된 기분을 느낄 수 있는 꿈
+                같은 일러스트 커버로 제작되었습니다. <br />
+                날짜형과 만년형 두 가지 타입으로 준비되어, 올해가 지나도
+                언제든지 자신의 책으로 삼을 수 있도록 했습니다.
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 여기까지 다이어리 탭 modal -->
+    <!--  -->
+    <div
+      class="modal fade"
+      id="prodModal04-1"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">상품 준비중입니다</h4>
+                <p class="sub-title">리무버블 스티커</p>
+              </div>
+              <p class="modal-prod_sub">
+                현재 준비중인 상품입니다 조금만 기다려주세요!
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div
+      class="modal fade"
+      id="prodModal05-1"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">상품 준비중입니다</h4>
+                <p class="sub-title">마스킹테이프</p>
+              </div>
+              <p class="modal-prod_sub">
+                현재 준비중인 상품입니다 조금만 기다려주세요!
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div
+      class="modal fade"
+      id="prodModal06-1"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">상품 준비중입니다</h4>
+                <p class="sub-title">노트</p>
+              </div>
+              <p class="modal-prod_sub">
+                현재 준비중인 상품입니다 조금만 기다려주세요!
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <div
+      class="modal fade"
+      id="prodModal07-1"
+      tabindex="-1"
+      aria-labelledby="prodModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header text-center">
+            <h3 class="modal-title" id="prodModalLabel">상세 보기</h3>
+          </div>
+          <div class="modal-body d-flex">
+            <div class="modal-img">
+            </div>
+            <div class="modal-text">
+              <div class="modal-prod_title">
+                <h4 class="title">상품 준비중입니다</h4>
+                <p class="sub-title">떡메모지</p>
+              </div>
+              <p class="modal-prod_sub">
+                현재 준비중인 상품입니다 조금만 기다려주세요!
+              </p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="modal-closeBtn" type="button" data-dismiss="modal">
+              닫기
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- script -->
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- bootstrap 4 -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- kakao map -->
+    <script
+      type="text/javascript"
+      src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=30bdc2b01839a3f49c894b81b85eebb8"></script>
+    <!-- main.js -->
+    <script src="assets/js/inquire.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
