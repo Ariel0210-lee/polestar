@@ -1,3 +1,8 @@
+// alert
+$(window).on("load", function () {
+  alert("이 홈페이지는 포트폴리오용으로 만들어졌습니다.");
+});
+
 $(function () {
   // nav
   $(".ghost_btn").click(function () {
@@ -50,8 +55,8 @@ let swiper = new Swiper(".sec06_slides-rtl", {
     },
     540: {
       slidesPerView: 1,
-    }
-  }
+    },
+  },
 });
 
 let swiper02 = new Swiper(".sec06_slides", {
@@ -77,6 +82,6 @@ let swiper02 = new Swiper(".sec06_slides", {
     540: {
       slidesPerView: 1,
       spaceBetween: 30,
-    }
-  }
+    },
+  },
 });
